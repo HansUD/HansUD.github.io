@@ -5,17 +5,21 @@ section {
     border-top: dashed 1px;
 }
 
-td img {
+.row img {
     width: 160px;
     height: 135px;
     border-radius: 5%;
     object-fit: cover;
     transition: .3s ease-in-out;
 }
-td img:hover{
+.row img:hover{
     transform: scale(1.2);
 }
 
+.img-list .row {
+  max-height: 70vh !important;
+  overflow-y: auto;
+}
 
 .horizontal-timeline .items {
     border-top: 3px solid #e9ecef;
